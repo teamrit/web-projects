@@ -1,0 +1,17 @@
+img {
+	width: 80%;
+	animation-name: pixels;
+	animation-duration: 30s;
+	animation-timing-function: ease-in;
+	border-radius: 30px;
+}
+
+@keyframes pixels {
+	0% {width: 1000px;
+		height: 200px;
+	}
+	100% {
+		height: 1000px;
+		width: 200px;
+	}
+}
